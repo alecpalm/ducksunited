@@ -1,0 +1,44 @@
+@font-face {
+    font-family:UnitedUltra ;
+    src: url(../fonts/Decimal-Ultra.otf);
+}
+@font-face {
+    font-family: UnitedSemi;
+    src: url(../fonts/Decimal-Semibold.otf);
+}
+h1 {
+    font-family: UnitedUltra;
+}
+body {
+    font-family: UnitedSemi;
+    background-color: rgb(254, 225, 26);
+    color: rgb(0, 112, 48);
+}
+.splash {
+        text-align: center;
+        display: inline;  
+        margin: auto;
+        position: absolute;
+        width: 800px;
+        height: 400px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right:0;
+        font-size: 40px;
+}
+p.logo {
+    font-size: 25px;
+    line-height: 1px;
+}
+a.button {
+    font-size: 30px;
+    border-color: white;
+    background: white;
+    border-radius: 100px;
+    padding: 18px 25px 18.7px ;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+
+}
