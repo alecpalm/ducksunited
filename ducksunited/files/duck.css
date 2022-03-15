@@ -50,4 +50,12 @@ a.button:hover{
     text-align: center;
     font-size: 40px;
 }
-
+@media (max-width:600px){
+    .reg {
+        font-size: 25px;
+    }
+    a.button {
+        padding: 18px 25px 18.7px ;
+        font-size: 50px;
+    }
+}
