@@ -13,7 +13,7 @@ body {
     font-family: UnitedSemi;
     background-image: url("https://www.ducksunited.org/ducksunited/images/victory_graident.jpg");
     background-repeat: no-repeat; 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 .splash {
         text-align: center;
