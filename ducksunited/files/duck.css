@@ -59,3 +59,9 @@ a.button:hover{
         font-size: 50px;
     }
 }
+h1.graidenttext {
+    background: linear-gradient(70deg,#007030,#fee11a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+
