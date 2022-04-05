@@ -60,8 +60,38 @@ a.button:hover{
     }
 }
 h1.graidenttext {
-    background: linear-gradient(70deg,#007030,#fee11a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 20s ease-in-out infinite;
+	-moz-animation: animated_text 20s ease-in-out infinite;
+	-webkit-animation: animated_text 20s ease-in-out infinite;
 }
 
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+a.graident {
+    font-size: 30px;
+    border: 2px solid;
+    border-image: url(https://www.ducksunited.org/ducksunited/images/Sls_tmeuSGE.png) 1 round;
+    padding: 20px 44px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: black;
+}
+.announcemnt{
+    font-family:UnitedSemi; 
+    font-size: 20px; 
+    padding: 18px 25px 18.7px ;
+    margin:0; 
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 100px;
+    -webkit-text-fill-color: black;
+    background-size: 100% 100%; 
+}
